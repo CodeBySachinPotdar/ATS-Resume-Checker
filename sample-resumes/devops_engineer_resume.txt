@@ -1,0 +1,29 @@
+MARCUS VANCE
+Austin, TX | (512) 555-0821 | marcus.vance@example.com
+linkedin.com/in/marcusvance-ops | github.com/marcusvance-infra
+
+PROFESSIONAL SUMMARY
+DevOps & Cloud Infrastructure Engineer with 7+ years of experience automating distributed systems and CI/CD pipelines. Expert in Kubernetes, Docker, Terraform, and AWS cloud environments. Proven track record of 99.99% system uptime and infrastructure-as-code automation.
+
+TECHNICAL SKILLS
+Cloud & Virtualization: AWS, Docker, Kubernetes, Helm, Terraform
+CI/CD & Automation: GitHub Actions, Jenkins, Ansible, Bash, Python
+Monitoring & Logging: Prometheus, Grafana, ELK Stack, Datadog
+Databases & Networking: PostgreSQL, Redis, VPC, Route53, TLS/SSL
+
+WORK EXPERIENCE
+Lead DevOps Engineer | CloudScale Networks | 2021 - Present
+• Orchestrated multi-cluster Kubernetes deployments on AWS EKS, reducing infrastructure costs by 32%.
+• Built automated CI/CD deployment pipelines using GitHub Actions and Terraform, shrinking release cycle time from 2 days to 30 minutes.
+• Implemented cluster-wide monitoring using Prometheus and Grafana alerts, reducing MTTR for Sev-1 incidents by 50%.
+
+Site Reliability Engineer | Stratos Systems | 2017 - 2021
+• Managed 200+ AWS EC2 and RDS instances, establishing automated snapshot backups and disaster recovery runbooks.
+• Containerized legacy backend services with Docker, cutting server provisioning times by 65%.
+
+EDUCATION
+B.S. in Computer Engineering | University of Texas at Austin | 2017
+
+CERTIFICATIONS
+• Certified Kubernetes Administrator (CKA)
+• AWS Certified DevOps Engineer - Professional

@@ -1,0 +1,17 @@
+Senior Full-Stack Engineer (React & Java/Node)
+Company: Elevate SaaS | Location: Remote
+
+Job Overview:
+Elevate SaaS is looking for a Senior Full-Stack Engineer to build customer-facing web applications. You will collaborate closely with designers and product managers to create performant, accessible digital experiences.
+
+Key Responsibilities:
+• Build responsive, high-performance UI components in React, TypeScript, and Tailwind CSS.
+• Develop robust RESTful APIs using Spring Boot or Node.js.
+• Optimize Core Web Vitals (LCP, FID/INP, CLS) and ensure cross-browser responsiveness.
+• Integrate relational databases in PostgreSQL and caching with Redis.
+
+Required Qualifications:
+• 4+ years of full-stack development experience with React and TypeScript.
+• Hands-on experience developing backend services in Java (Spring Boot) or Node.js.
+• Strong familiarity with RESTful Web Services and GraphQL.
+• Proficiency with PostgreSQL and Docker container workflows.

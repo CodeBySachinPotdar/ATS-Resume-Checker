@@ -1,0 +1,26 @@
+SARAH LIN
+Seattle, WA | (206) 555-0144 | sarah.lin@example.com
+linkedin.com/in/sarahlin-fullstack | github.com/sarahlin-dev
+
+PROFESSIONAL SUMMARY
+Full-Stack Software Engineer with 5 years of experience architecting user-facing web applications and scalable APIs. Skilled in React, TypeScript, Node.js, and Java backend microservices. Focused on front-end performance optimization and responsive user interfaces.
+
+TECHNICAL SKILLS
+Languages: TypeScript, JavaScript, Java, HTML5, CSS3, SQL
+Frontend: React, Next.js, Redux Toolkit, Tailwind CSS, Vite
+Backend: Node.js, Express, Spring Boot, REST APIs, GraphQL
+Databases & Cloud: PostgreSQL, MongoDB, Redis, Docker, AWS
+
+WORK EXPERIENCE
+Full-Stack Engineer | Apex Interactive | 2022 - Present
+• Designed and developed modular React/TypeScript user interfaces, improving Core Web Vitals LCP by 35% for 80,000 monthly users.
+• Built RESTful APIs in Node.js and Java Spring Boot to handle customer profile authentication and document uploads.
+• Integrated responsive UI dashboards using Tailwind CSS with WCAG 2.1 AA accessibility compliance.
+
+Frontend Developer | Horizon Digital Media | 2019 - 2022
+• Implemented reusable React component libraries adopted across 4 client product lines.
+• Worked with PostgreSQL database queries to power dynamic search filtering on e-commerce portals.
+• Authored comprehensive unit and component tests with Vitest and React Testing Library.
+
+EDUCATION
+B.S. in Software Engineering | University of Washington | 2019

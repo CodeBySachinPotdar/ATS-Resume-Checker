@@ -1,0 +1,39 @@
+# Java / Maven
+target/
+**/target/
+*.class
+*.jar
+**/*.jar
+*.war
+*.ear
+*.log
+**/*.log
+.mvn/
+.idea/
+*.iml
+.vscode/
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+.npm
+
+# Netlify
+.netlify/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+*.tmp
+*.tsbuildinfo
+*.log
+

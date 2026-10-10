@@ -1,0 +1,33 @@
+ALEXANDER CHEN
+San Francisco, CA | (415) 555-0192 | alex.chen.dev@example.com
+linkedin.com/in/alexanderchen-dev | github.com/alexchen-cloud
+
+PROFESSIONAL SUMMARY
+Dedicated Software Engineer with 6+ years of hands-on experience designing and implementing distributed backend services. Proficient in Java, Spring Boot, Microservices, and REST APIs with strong relational database skills in PostgreSQL. Passionate about system scalability and clean code architecture.
+
+TECHNICAL SKILLS
+Languages: Java 17/21, SQL, Python, TypeScript
+Frameworks: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, JUnit 5
+Architecture & Cloud: Microservices, RESTful APIs, Docker, AWS (S3, EC2), Git
+Databases: PostgreSQL, MySQL, Redis
+Methodologies: Agile, Scrum, CI/CD, Test-Driven Development
+
+WORK EXPERIENCE
+Senior Software Developer | Nexus Financial Technologies | 2021 - Present
+• Developed Spring Boot REST APIs for a high-volume payment routing gateway, improving transaction throughput by 25%.
+• Refactored legacy monolithic services into modular microservices using Docker containers and PostgreSQL.
+• Implemented Redis caching layers, reducing database read latency by 45% across peak trading periods.
+• Mentored junior engineers and led bi-weekly sprint planning sessions within an Agile framework.
+
+Software Engineer | CloudScale Systems | 2018 - 2021
+• Worked on Java application development for enterprise supply chain tracking.
+• Created relational database schemas and optimized complex SQL queries in PostgreSQL.
+• Built automated unit and integration tests using JUnit 5 and Mockito, raising code coverage from 62% to 85%.
+• Collaborated with frontend engineers to integrate REST endpoints with modern web dashboards.
+
+EDUCATION
+Bachelor of Science in Computer Science | University of California, Berkeley | 2018
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect - Associate
+• Oracle Certified Professional: Java SE 11 Developer

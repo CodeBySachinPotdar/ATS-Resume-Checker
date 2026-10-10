@@ -1,0 +1,26 @@
+Senior Java Developer - Cloud Payments Platform
+Company: ABC Global FinTech | Location: San Francisco, CA (Hybrid)
+
+Job Overview:
+We are looking for an experienced Senior Java Developer to join our Cloud Core Platform team. In this role, you will architect, build, and scale mission-critical financial microservices handling millions of daily transactions.
+
+Key Responsibilities:
+• Design and implement resilient, distributed microservices using Java 21 and Spring Boot.
+• Build real-time event-streaming pipelines utilizing Apache Kafka for asynchronous transaction processing.
+• Architect containerized deployments on Kubernetes (EKS) and AWS infrastructure.
+• Optimize high-volume relational databases using PostgreSQL and in-memory caches using Redis.
+• Drive system design, high availability, fault tolerance, and CI/CD automation pipelines.
+• Collaborate with cross-functional product and engineering teams in an Agile environment.
+
+Required Qualifications (Must Have):
+• 5+ years of software engineering experience with Java and Spring Boot.
+• Proven expertise with Microservices architecture and distributed systems.
+• Hands-on experience with Apache Kafka or event-driven messaging brokers.
+• Strong experience with PostgreSQL database optimization and Redis caching.
+• Solid proficiency with Docker containerization and Kubernetes.
+• Experience with AWS cloud infrastructure (EC2, S3, RDS, EKS).
+
+Nice to Have:
+• Terraform infrastructure-as-code experience.
+• Monitoring with Prometheus and Grafana.
+• Background in financial technology, PCI-DSS compliance, or payment processing.

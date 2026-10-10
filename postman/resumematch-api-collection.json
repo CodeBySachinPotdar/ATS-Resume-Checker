@@ -1,0 +1,141 @@
+{
+  "info": {
+    "name": "ResumeMatch AI - REST API Collection",
+    "description": "Production-ready Postman collection for testing ResumeMatch AI ATS Evaluation and Optimization APIs.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080/api/v1",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "1. Login (Demo User)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"demo@resumematch.ai\",\n  \"password\": \"password123\"\n}"
+            },
+            "url": { "raw": "{{baseUrl}}/auth/login", "host": ["{{baseUrl}}"], "path": ["auth", "login"] }
+          }
+        },
+        {
+          "name": "2. Register User",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"candidate@example.com\",\n  \"password\": \"securePass123!\",\n  \"fullName\": \"Jane Candidate\"\n}"
+            },
+            "url": { "raw": "{{baseUrl}}/auth/register", "host": ["{{baseUrl}}"], "path": ["auth", "register"] }
+          }
+        },
+        {
+          "name": "3. Get Profile",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": { "raw": "{{baseUrl}}/auth/me", "host": ["{{baseUrl}}"], "path": ["auth", "me"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Analyses",
+      "item": [
+        {
+          "name": "1. Quick ATS Check (Synchronous Evaluation)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"resumeTitle\": \"Alexander Chen - Senior Java Dev\",\n  \"resumeText\": \"ALEXANDER CHEN\\nSan Francisco, CA | (415) 555-0192 | alex.chen.dev@example.com\\n\\nPROFESSIONAL SUMMARY\\nDedicated Software Engineer with 6+ years hands-on experience designing and implementing distributed backend services. Proficient in Java, Spring Boot, Microservices, and REST APIs with strong relational database skills in PostgreSQL.\\n\\nTECHNICAL SKILLS\\nJava, Spring Boot, Microservices, RESTful APIs, Docker, AWS, PostgreSQL, Redis, JUnit\\n\\nWORK EXPERIENCE\\nSenior Software Developer | Nexus Financial | 2021 - Present\\n• Developed Spring Boot REST APIs for payment routing gateway, improving throughput by 25%.\\n• Refactored legacy monolithic services into modular microservices using Docker containers and PostgreSQL.\\n• Implemented Redis caching layers, reducing database read latency by 45%.\\n\\nEDUCATION\\nB.S. Computer Science | UC Berkeley | 2018\",\n  \"jobTitle\": \"Senior Java Developer\",\n  \"company\": \"ABC Global FinTech\",\n  \"jobDescriptionText\": \"Senior Java Developer\\nCompany: ABC Global FinTech\\n\\nResponsibilities:\\n• Design distributed microservices in Java 21 and Spring Boot.\\n• Build event streaming pipelines using Apache Kafka.\\n• Deploy containers to AWS Kubernetes.\\n• Optimize PostgreSQL databases and Redis caches.\\n\\nRequired (Must Have):\\n• 5+ years experience in Java and Spring Boot.\\n• Microservices and distributed systems.\\n• Apache Kafka.\\n• PostgreSQL and Redis.\\n• Docker and Kubernetes.\\n• AWS cloud infrastructure.\"\n}"
+            },
+            "url": { "raw": "{{baseUrl}}/analyses/quick-check", "host": ["{{baseUrl}}"], "path": ["analyses", "quick-check"] }
+          }
+        },
+        {
+          "name": "2. Get Analysis by ID",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/analyses/1", "host": ["{{baseUrl}}"], "path": ["analyses", "1"] }
+          }
+        },
+        {
+          "name": "3. Get Score Breakdown",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/analyses/1/score", "host": ["{{baseUrl}}"], "path": ["analyses", "1", "score"] }
+          }
+        },
+        {
+          "name": "4. Get Keywords",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/analyses/1/keywords", "host": ["{{baseUrl}}"], "path": ["analyses", "1", "keywords"] }
+          }
+        },
+        {
+          "name": "5. Get Recommendations",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/analyses/1/recommendations", "host": ["{{baseUrl}}"], "path": ["analyses", "1", "recommendations"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Improvements & Export",
+      "item": [
+        {
+          "name": "1. Get Bullet & Summary Improvements",
+          "request": {
+            "method": "POST",
+            "url": { "raw": "{{baseUrl}}/resumes/1/improvements?targetRole=Senior%20Java%20Developer", "host": ["{{baseUrl}}"], "path": ["resumes", "1", "improvements"] }
+          }
+        },
+        {
+          "name": "2. Export PDF (Classic Professional)",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/resumes/1/export?format=pdf&template=CLASSIC_PROFESSIONAL", "host": ["{{baseUrl}}"], "path": ["resumes", "1", "export"] }
+          }
+        },
+        {
+          "name": "3. Export DOCX",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/resumes/1/export?format=docx&template=MODERN_MINIMAL", "host": ["{{baseUrl}}"], "path": ["resumes", "1", "export"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Samples",
+      "item": [
+        {
+          "name": "Get Java Sample Pair",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/samples/java", "host": ["{{baseUrl}}"], "path": ["samples", "java"] }
+          }
+        }
+      ]
+    }
+  ]
+}

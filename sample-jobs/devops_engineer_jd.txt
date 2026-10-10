@@ -1,0 +1,17 @@
+Senior Cloud DevOps & Kubernetes Engineer
+Company: DataSphere Cloud | Location: Austin, TX (Hybrid)
+
+Job Overview:
+Join our Infrastructure Engineering team to build resilient Kubernetes platforms and CI/CD pipelines across AWS cloud.
+
+Key Responsibilities:
+• Lead multi-cluster Kubernetes infrastructure operations and cluster lifecycle automation.
+• Manage Infrastructure-as-Code using Terraform modules and GitOps workflows.
+• Maintain continuous delivery pipelines using GitHub Actions or Jenkins.
+• Implement robust observability with Prometheus, Grafana, and distributed tracing.
+
+Required Qualifications:
+• 5+ years in DevOps, SRE, or Cloud Infrastructure engineering.
+• Deep expertise in Kubernetes (CKA preferred) and Docker containerization.
+• Hands-on proficiency with AWS cloud infrastructure (VPC, IAM, EKS, RDS).
+• Proven production experience with Terraform.
